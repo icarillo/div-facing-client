@@ -1,0 +1,11 @@
+#facingdiv .facing{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+#facingdiv .facing>*:first-child{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    transition: all 0.1s ease;
+}
